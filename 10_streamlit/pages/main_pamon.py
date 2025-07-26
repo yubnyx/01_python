@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title('사용자 입력 받기')
 
-col1,_,col2 = st.columns(3)
+col1,_,col2 = st.columns(3) #공간 확보
 
 with col1:
     nickname = st.text_input('닉네임 입력')

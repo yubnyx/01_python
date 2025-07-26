@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('사용자 입력 받기')
+st.title('만화 분류 프로젝트!')
 
 nickname = st.text_input('닉네임 입력')
 age = st.number_input('나이 입력: ', min_value=13, max_value=80)
